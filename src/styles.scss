@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --radius: 8px;
+  --gap: 1rem;
+  --padding: 1.25rem;
+  --bg-glass: rgba(255, 255, 255, 0.15);
+  --text-dark: #333;
+  --text-light: #fff;
+  --primary: #0072ff;
+  --primary-light: #00c6ff;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+//   background: linear-gradient(135deg, #74ebd5, #acb6e5);
+background: hsla(186, 33%, 94%, 1);
+background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
